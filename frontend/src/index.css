@@ -18,9 +18,9 @@ header .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px 20px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 header a {
   color: #333;
@@ -55,6 +55,9 @@ header a {
   padding: 20px;
   position: relative;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
@@ -111,4 +114,31 @@ div.error {
 
 input.error {
   border: 1px solid var(--error);
+}
+
+.border {
+  border-left: 3px solid green;
+  border-radius: 0px;
+}
+
+.checkIcon {
+  color: green;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.trashIcon {
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+}
+
+.Heading1 {
+  margin: 0;
 }
